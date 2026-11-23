@@ -9,7 +9,7 @@ está organizado el proyecto y qué reglas sigue.
 - Proyecto académico de **Lenguaje de Programación** (5.º semestre, Ingeniería de Sistemas).
 - La persona que programa es **estudiante**: está aprendiendo. Tu rol es enseñar y revisar, no
   resolverle la materia.
-- Producto: <!-- el alumno describe aquí su producto en 2 líneas -->
+- Producto: Sistema de gestión de eventos que permite generar entradas digitales con códigos QR únicos y validar su autenticidad mediante la cámara de un dispositivo, facilitando el control de acceso y evitando la reutilización de entradas.
 
 ## Reglas obligatorias
 
@@ -55,11 +55,11 @@ docs/                  PRD, arquitectura, decisiones (ADR), ingeniería inversa,
 
 ## Comandos
 
-| Comando | Qué hace |
-| --- | --- |
-| `docker compose up -d` | Levanta PostgreSQL |
-| `npm run migrate` | Aplica migraciones |
-| `npm run dev` | API + frontend en modo desarrollo |
-| `npm run check` | Lint + tipos + pruebas unitarias (correr antes de cada commit) |
-| `npm run test:integration` | Pruebas de API contra PostgreSQL |
-| `npm run test:e2e` | Pruebas en navegador con Playwright |
+| Comando                    | Qué hace                                                       |
+| -------------------------- | -------------------------------------------------------------- |
+| `docker compose up -d`     | Levanta PostgreSQL                                             |
+| `npm run migrate`          | Aplica migraciones                                             |
+| `npm run dev`              | API + frontend en modo desarrollo                              |
+| `npm run check`            | Lint + tipos + pruebas unitarias (correr antes de cada commit) |
+| `npm run test:integration` | Pruebas de API contra PostgreSQL                               |
+| `npm run test:e2e`         | Pruebas en navegador con Playwright                            |
