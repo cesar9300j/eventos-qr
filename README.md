@@ -1,4 +1,4 @@
-# Mi producto
+# Eventos QR
 
 > **Alumno:** cambia este título por el nombre de tu producto y esta línea por una frase que lo explique.
 > Proyecto n.º __ del catálogo · Sitio de referencia: __ · [PRD](docs/PRD.md) · URL publicada: __
